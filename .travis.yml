@@ -33,6 +33,7 @@ addons:
   apt:
     packages:
     - can-utils
+    - libsocketcan-dev
 
 matrix:
   # see "os: ..." above
