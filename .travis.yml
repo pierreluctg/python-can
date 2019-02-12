@@ -29,6 +29,10 @@ os:
 # Linux setup
 dist: xenial
 sudo: required
+addons:
+  apt:
+    packages:
+    - can-utils
 
 matrix:
   # see "os: ..." above
